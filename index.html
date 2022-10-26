@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Grid Layout</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<style>
+			* {
+				font-family: Arial, Verdana, sans-serif;
+				color: #665544;
+				text-align: center;}
+			#nav, #feature, .article, #footer {
+				background-color: #efefef;
+				margin-top: 20px;
+				padding: 10px 0px 5px 0px;}
+			#feature, .article {
+				height: 100px;}
+			li {
+				display: inline;
+				padding: 5px;}
+		</style>
+	</head>
+	<body>
+		<div class="container_12 clearfix">
+			<div id="header" class="grid_12">
+				<img src="images/logga.png">
+<div id="nav">
+		<ul>
+						<li><a href="">Start</a></li>
+						<li><a href="">Parfymlista</a></li>
+						<li><a href="">Nutricode</a></li>
+						<li><a href="">Jobba med oss</a></li>
+						<li><a href="">Kontakt&nbsp;</a></li>
+					</ul>
+				</div>
+			</div>
+			<div id="feature" class="grid_12">
+				<p>Information om GRLnetwork</p>
+			</div>
+			<div class="article grid_4">
+				<p>Produktkategorier</p>
+			</div>
+			<div class="article grid_4">
+				<p>Affärspresentationsvideon&nbsp;</p>
+			</div>
+			<div class="article grid_4">
+				<p>Column Three</p>
+			</div>
+			<div id="footer" class="grid_12">
+				<p>&copy; Copyright 2022</p>
+			</div>
+		</div><!-- .container_12 -->
+	</body>
+</html>
